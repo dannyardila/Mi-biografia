@@ -1,0 +1,30 @@
+*
+{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html
+{
+    font-size:62.5%; /*equivale a 10 px*/
+}
+
+main
+{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(130, 221, 39);
+}
+
+section
+{
+    width: 80%;
+    min-width: 320px;
+    max-width: 500px;
+    min-height: 500px;
+    max-height: 500px;
+    height: 320px;
+    margin: 0 auto;
+    background-color: rgb(243, 239, 239);
+
+}

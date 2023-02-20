@@ -1,0 +1,36 @@
+/*Clases*/
+
+.main-nav{
+
+    margin-top: 10px;
+    list-style: none;
+    padding-left: 0;
+    background-color: chartreuse;
+
+}
+.main-nav_item{
+    display: flex;
+
+}
+
+.main-nav__item a{
+    color: black;
+    padding: 4px;
+    border-radius: 2px;
+    text-decoration: line-through;
+}
+
+/*Pseudolases*/
+
+.main-nav__item a:hover{
+    color: crimson;
+}
+
+.main-nav__item a:active{
+    color: blue;
+}
+
+.main-nav__item a::after{
+    content: "|";
+
+}
